@@ -31,7 +31,7 @@ export class Products extends Component {
 						<div class='row'>
 							{state.prod.map((item)=>{
 								return (
-									<div className='product__card'>
+									<div className='product__card row__item'>
 										<img srcSet={item.images[0].thumbnail}/>
 										<div class='product__name'>{item.name}</div>
 										<span class='product__price'dangerouslySetInnerHTML={{ __html: item.price_html }}/>

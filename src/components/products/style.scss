@@ -3,7 +3,11 @@
 .products {
   .row{
     flex-wrap: wrap;
+    justify-content: space-between;
   }
+}
+.product__card:last-child{
+  justify-content: flex-start;
 }
 
 @media only screen and (max-width: $phone){

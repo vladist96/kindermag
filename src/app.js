@@ -1,4 +1,5 @@
 import {Component, h} from 'preact';
+
 import {style} from './style/index.scss'
 
 import {logo} from './icons.js'
@@ -60,7 +61,8 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.handleLocation()
+    // this.handleLocation()
+
   }
 
 

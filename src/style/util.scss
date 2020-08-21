@@ -45,6 +45,11 @@ a{
 	flex-direction: row;
 	margin-left: -$rowGutter;
 }
+.row__item{
+	box-sizing: border-box;
+	padding-left: $gridGutter;
+	margin-bottom: $unit*4;
+}
 .text-left{
 	text-align: left;
 }
