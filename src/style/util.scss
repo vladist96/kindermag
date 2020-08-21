@@ -1,0 +1,63 @@
+@import 'var.scss';
+
+img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+a{
+	transition: ease-in-out $transition;
+	&:hover{
+		opacity: 0.8;
+	}
+}
+.c{
+	box-sizing: border-box;
+	min-width: $unit*35;
+	max-width: $unit*146;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 $unit*2;
+}
+.container{
+	@extend .c;
+	overflow: hidden;
+}
+.container__height{
+	@extend .container;
+	height: 100%;
+}
+.container-no-overflow{
+	@extend .c;
+}
+.section_base{
+	$of: $unit*4;
+
+	padding-top: $of;
+	padding-bottom: $of;
+	margin-top: $of;
+	margin-bottom: $of;
+}
+
+.row{
+	$rowGutter: $gridGutter + $unit*2;
+	display: flex;
+	flex-direction: row;
+	margin-left: -$rowGutter;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+
+@media only screen and (max-width: $tablet){
+	.row{
+		flex-direction: column;
+	}
+}
+

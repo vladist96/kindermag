@@ -1,0 +1,25 @@
+
+$unit: 8px;
+
+$accent: #00897b;
+$light: #f3f3f3;
+
+$fontSize: $unit*2 + 2;
+
+$shadow: rgba(0,0,0,0.15);
+
+$phone: $unit * 30; //240
+$tablet: $unit * 96; // 768
+$smallScreen: $unit * 128; // 1024
+$mediumScreen: $unit * 172; // 1374
+$largeScreen: $unit * 240; // 1920
+
+$container: $unit * 160; // 1280
+$headerHeight: $unit * 8; // 64
+
+$gridGutter: $unit*6;
+
+$transition: .2s;
+$radius: $unit/2;
+
+$family: 'Segoe UI', 'Helvetica Neue', sans-serif;

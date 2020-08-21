@@ -1,0 +1,28 @@
+@import "../../style/var.scss";
+
+.navdrawer {
+  top: $headerHeight;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  background: #fff;
+  z-index: 898;
+  transform: translateX(-100%);
+  transition: transform ease-in-out $transition;
+}
+.navdrawer--active{
+  transform: translateX(0)
+}
+.navdrawer__item{
+  display: inline-block;
+  width: 100%;
+  height: $unit*8;
+  line-height: $unit*8;
+  text-align: center;
+  text-decoration: none;
+  color: $accent;
+}
+
+@media only screen and (max-width: $phone){
+
+}

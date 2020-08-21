@@ -1,0 +1,17 @@
+@import "../../../style/var.scss";
+
+.feats__item{
+  box-sizing: border-box;
+  padding-left: $gridGutter;
+  margin-bottom: $unit*4;
+}
+.feats__item__icon{
+  margin-bottom: $unit*3;
+}
+.feats__icon__svg{
+  fill: $accent;
+}
+
+@media only screen and (max-width: $phone){
+
+}

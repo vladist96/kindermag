@@ -1,0 +1,25 @@
+.btn{
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: auto;
+  height: $unit*5;
+  border: 0;
+  border-radius: $unit/2;
+  padding: 0 $unit*2;
+  
+  background: $accent;
+
+  color: #FFF;
+  font-size: $fontSize;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: $unit*5;
+
+  transition: background ease-in-out $transition;
+
+  &:hover{
+    background: darken($accent, 10)
+  }
+}

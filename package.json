@@ -1,0 +1,32 @@
+{
+  "name": "starter_preact",
+  "version": "1.0.0",
+  "description": "Preact boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html -p 8080 --no-cache --open",
+    "build": "parcel build index.html --out-dir build --no-source-maps"
+  },
+  "author": "minaevdesign@gmail.com",
+  "license": "ISC",
+  "sw-precache": {
+    "maximumFileSizeToCacheInBytes": 10485760
+  },
+  "cache": {
+    "disablePlugin": false,
+    "inDev": false,
+    "strategy": "default",
+    "clearDist": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.6.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svg-sprite": "^1.4.1",
+    "parcel-plugin-sw-cache": "^0.3.1",
+    "preact": "^10.4.7",
+    "preact-router": "^3.2.1",
+    "sass": "^1.23.0"
+  }
+}

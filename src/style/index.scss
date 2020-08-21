@@ -1,0 +1,16 @@
+@import 'var.scss';
+@import 'util.scss';
+@import 'typo.scss';
+@import 'buttons.scss';
+
+body{
+  font-family: $family;
+  font-size: $fontSize;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+.wrap{
+  padding-top: $headerHeight;
+  box-sizing: border-box;
+}

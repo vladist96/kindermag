@@ -1,0 +1,33 @@
+@import "../../style/var.scss";
+@import "../../style/util.scss";
+
+.footer {
+  background: $accent;
+  color: #FFF;
+  margin-bottom: 0;
+  .header__logo__img{
+    fill: #FFF;
+  }
+  a{
+    color: #FFF;
+  }
+}
+
+.footer__container{
+  @extend .c;
+  display: flex;
+}
+
+.footer__col{
+  width: 33.333333%;
+}
+
+.footer__nav__item{
+  display: inline-block;
+  width: 100%;
+  color: #FFF;
+}
+
+@media only screen and (max-width: $phone){
+
+}

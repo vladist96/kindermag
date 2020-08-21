@@ -1,0 +1,22 @@
+@import "../../style/var.scss";
+
+.hero {
+  height: 60vh;
+  background: url('/src/assets/hero.jpg') no-repeat bottom center/cover;
+  position: relative;
+}
+.hero__container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.hero__container__content{
+  width: 50%;
+}
+
+@media only screen and (max-width: $tablet){
+  .hero__container__content{
+    width: 100%;
+  }
+}
